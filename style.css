@@ -23,6 +23,12 @@ li {
     font-size: 1.2rem;
 }
 
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
 .site-title {
     line-height: 1px;
     font-weight: 600;
@@ -34,6 +40,11 @@ li {
     display: block;
 }
 
+.sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
 /* header */
 #header {
     max-width: 960px;
@@ -69,6 +80,25 @@ li {
     width: 30px;
 }
 
+/* main */
+#main {
+    margin-bottom: 80px;
+}
+#main img {
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* about */
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about ul li:first-child {
+    margin-bottom: 30px;
+}
 /* sp */
 @media screen and (max-width: 600px) {
     .site-title {
